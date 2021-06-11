@@ -18,9 +18,18 @@ public class TesteMerge {
         int[] vet = new int[5];
         
         populaVet(vet);
+        /*a,mnsbfdm,nasbfmasdbfadf
+        asfasfasfasfasfasfasfasfasf
+        asfasfasfasfasfasfasfasfasf
+        asfasfasfasfasfasfasfasfas
+        fasfasfasfasfasfasfasfasfasf
+        asfasfasfasfasfasfasfasfasf
+        asfasfasfasfasfasfasfasfasfas
+        fasfasfasfasfasfasfasfasfasf*/
         
         for (int i = 0; i < vet.length; i++) {
-           System.out.print(vet[i] + " ");    
+           System.out.print(vet[i] + " ");
+            System.out.print(vet[i] + 2 + "  ");
         }
     }
 
