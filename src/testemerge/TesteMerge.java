@@ -18,7 +18,10 @@ public class TesteMerge {
         int[] vet = new int[5];
         
         populaVet(vet);
-
+        
+        for (int i = 0; i < vet.length; i++) {
+           System.out.print(vet[i] + " ");    
+        }
     }
 
 }
